@@ -1,0 +1,32 @@
+{
+  "name": "element-ui-pro-docs",
+  "version": "0.1.0",
+  "description": "Element-UI Pro 业务组件库使用文档.",
+  "author": {
+    "name": "dengs",
+    "email": "imdengs@hotmail.com",
+    "url": "https://www.cbtak.cn"
+  },
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dengs/element-ui-pro-docs.git"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "dist": "node server.js",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "element-ui": "^2.13.2",
+    "express": "^4.17.1",
+    "highlight.js": "^10.1.2",
+    "vue": "^2.6.12",
+    "vue-highlight.js": "^3.1.0"
+  },
+  "devDependencies": {
+    "less": "^3.12.2",
+    "less-loader": "^6.2.0"
+  }
+}
